@@ -1,0 +1,7 @@
+kind: HelmRelease
+metadata:
+  name: podinfo
+spec:
+  releaseName: podinfo
+  values:
+    replicaCount: 2
